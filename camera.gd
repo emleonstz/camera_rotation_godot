@@ -10,7 +10,6 @@ var pitch: float = 0.0 # Rotation around X-axis (up/down)
 @export var min_pitch: float = -90.0
 @export var max_pitch: float = 90.0
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	# Capture the mouse cursor so it doesn't leave the window and movement is tracked
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
