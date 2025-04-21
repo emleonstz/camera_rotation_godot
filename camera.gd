@@ -1,4 +1,3 @@
-# filename: mouse_look_camera.gd
 extends Camera3D
 
 @export var mouse_sensitivity: float = 0.1 # Degrees per pixel
